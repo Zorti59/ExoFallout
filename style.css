@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    background: linear-gradient(90deg, rgba(225,229,231,1) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 80%, rgba(225,229,231,1) 100%);
+  }
+  /*Header*/
+  header {
+    background-image: url(fallout-img.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px;
+    margin-bottom: 60px;
+    display: flex;
+  }
+  .title-text p {
+    display: flex;
+  }
+  
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+  }
+  .underTitle {
+    font-weight: 300;
+    font-size: 50px;
+    margin-left: 12%;
+    width: 37%;
+  }
+  .underTitle p {
+    display: flex;
+  }
+  /*section bethesda*/
+  .rotate {
+    transform: rotate(270deg);
+    position: absolute;
+    left: 0;
+    top: 380px;
+  }
+  h4 {
+    background-color: #D6AF23;
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 25px 10px 25px;
+  }
+  /*Section text*/
+  .bar-and-text {
+    display: flex;
+  }
+  .text p {
+    font-size: 25px;
+  }
+  .bar-and-text .bar {
+    border: 1px solid #f5a327;
+    height: 700px;
+    width: 15px;
+    background-color: #e9bf28;
+    margin-left: 50px;
+  }
+  .text {
+    margin-left: 30px;
+    margin-right: 100px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-text {
+    font-weight: 400;
+  }
+  
+  ul {
+    padding: 0;
+    margin: 10px;
+  }
+  li {
+    padding-left: 30px;
+    line-height: 35px;
+    font-size: 25px;
+  }
+  span {
+    color : #f0ad2f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+  }
+  h1 span {
+    font-weight: 100;
+    color : #D6AF23;
+  }
+  b {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+  }
+  .thin {
+    font-weight: 100;
+    font-size: 25px;
+  }
+  .thinText {
+    font-weight: 300;
+    color: black;
+  }
+  /*Footer*/
+  footer {
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 63%, rgba(2,38,2,1) 100%);
+    text-align: center;
+    margin: 120px 0 0 0;
+    padding: 0; 
+    height: 200px;
+  }
+ .thinFooter{
+    font-size: 15px;
+  }
+  .text-in-logo {
+    position: absolute;
+    right: 110px;
+    margin-top: 30px;
+  }
+  .logo-1 {
+    float: right;
+    margin-right: 50px;
+    width: 250px;
+  }
+  .logo-2 {
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 0px;
+  }
+  h2 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    padding: 0;
+    line-height: 10px;
+  }
+  .logo {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  h3 {
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+    font-size: 150%;
+    padding-top: 30px;
+  }
+    
